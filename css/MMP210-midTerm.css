@@ -1,0 +1,255 @@
+Google fonts
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400,400italic,700);
+
+/* Media queries*/
+
+/*Grobal*/
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -icab-box-sizing: border-box;
+  -khtml-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*for responsible images and videos*/
+img,video{width: auto; max-width: 100%; height: auto; display:block;}
+
+/*to fix box size of parent box.*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+ }
+
+a{text-decoration: none;}
+
+.seeAnswer a, li a:link  {color:#FFF;} /*non-visit*/
+.seeAnswer a, li a:visited  {color:#FFF;} /*visited*/
+.seeAnswer a:hover{color: #777;}
+li a:hover {color:#ccc;} /*cursol on*/
+
+body{
+	margin:0 auto;
+	background-image: url("../img/mcdonalds_farm.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	font-family: 'Arial',sans-serif;
+}
+
+#Wrapper{
+	margin:0 5em;
+}
+
+/*header{
+	height:10.75em;
+}
+*/
+#mcHeader{
+	height: 7.5em;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mcLogo{
+	float: left;
+	height: 7.5em;
+}
+
+#headerContents{float: left;}
+
+header #mcCatchCopy {
+	color: #f8c300;
+	font-weight: 600;
+	font-size: 1.75em;
+	line-height: 1em;
+	text-transform: uppercase;
+	padding:0.5em 0 0 5em;
+}
+
+header #mcCatchCopy em {
+	color: #d01200;
+	font-style: normal;
+}
+
+header #mcCatchCopy em span {
+	position: relative;
+	top: -2em;
+	font-weight: 400;
+	font-size: 9px;
+}
+
+.subheading{
+	font-size: 0.875em;
+	padding-left: 10em;
+	color: white;
+}
+
+#searchWrapper{padding: 1em;}
+#searchButton{float: right; margin-left: 0.5em;}
+#searchBar{float: right;}
+
+#gradetionBar{
+	border-width: 0;
+	height:0.25em;
+	margin: 0;
+	background-image: url("../img/rainbow.png");
+}
+
+#switchPage{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 2.25em;
+	padding-top: 0.75em;
+	text-align: center;
+}
+
+form b{
+	margin-right: 1em;
+}
+
+#slideshoWrapper{
+	width: 100%;
+	float: left;
+	padding-bottom: 2.5em;
+}
+
+#slideshow{
+	width:97%;
+	margin: 0 auto;
+}
+
+#previous{
+	width: 3%;
+	float: left;
+	cursor: pointer;
+	margin-top: 17%;
+}
+
+#imageHolder{
+	width:94%;
+	float: left;
+}
+
+#next{
+	width: 3%;
+	float: left;
+	cursor: pointer;
+	margin-top: 17%;
+}
+
+#QAwrapper{
+	font-family: 'Volkhov', serif;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	padding: 2.5em;
+}
+
+.m-box{
+	width: 31.1111%;
+	float: left;
+	padding: 0.7em;
+}
+
+.s-box{
+	margin-bottom: 1em;
+}
+
+.QAboxQuestion{
+	height: 75%;
+	font-size: 1.5em;
+	text-align: left;
+	vertical-align: middle;
+	padding: 0.4em 1em;
+	line-height: 1.3em;
+}
+
+.Qcolor1{
+	background-color: #90d4bf;
+}
+
+.Qcolor2{
+	background-color: #d0483a;
+}
+
+.Qcolor3{
+	background-color: rgb(246,193,40);
+}
+
+.Qcolor4{
+	background-color: #63addf;
+}
+
+.Qcolor5{
+	background-color: #b9d86f;
+}
+
+.Qcolor6{
+	background-color: #90d4bf;
+}
+
+.QAboxAnswer{
+	background-color: rgba(0,0,0,0.5);
+	height: 25%;
+	font-size: 1.313em;
+	padding: 0.75em 1.5em;
+}
+
+.QAboxAnswer em{
+	font-size: 0.667em;
+}
+
+.seeAnswer{
+	font-size: 0.667em;
+	text-align: right;
+	margin-top: 1em;
+}
+
+#hiddenDivTop,#hiddenDivTop2,#hiddenDivTop3,#hiddenDivTop4,#hiddenDivTop5,#hiddenDivTop6 {
+	background-color: rgba(0,0,0,0.8);;
+	padding: 0.5em;
+	margin: 1em 0;
+}
+
+.answerTitle{
+	font-size: 0.667em;
+	font-style: Italic;
+	color: #777;
+	margin-bottom: 1em;
+}
+
+.ourAnswer{
+	line-height: 1.3em;
+}
+
+.answerDate{
+	font-size: 0.667em;
+	font-style: Italic;
+	color: #777;
+	margin-top: 1em;
+	text-align: right;
+}
+
+footer{
+	color: #FFF;
+	background-color: black;
+	padding:1em;
+}
+
+.navigation ul li{
+	float:left;
+	margin:0 1em;
+	font-size: 0.875em;
+	}
+
+footer .copyright{
+	float:right;
+	padding:0 2em 0 0;
+	font-size: 0.875em;
+}
+
